@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED"
+    tools:context=".Liquids"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#FFAC1C">
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="324dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="17dp"
+            android:background="#FFAC1C"
+            android:src="@drawable/img_29" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ornaments"
+            android:textSize="40dp"
+            android:layout_marginTop="80dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-395dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/roundnew"
+        android:elevation="10dp"
+        android:nestedScrollingEnabled="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginVertical="10dp"
+            android:layout_marginEnd="0dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/img_8"></ImageView>
+
+            <TextView
+                android:id="@+id/productName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="Shell Fish"
+                android:textColor="@color/black"
+                android:textSize="30sp"></TextView>
+
+            <Button
+                android:id="@+id/oshbtn"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-115dp"
+                android:layout_marginTop="75dp"
+                android:backgroundTint="#FFAC1C"
+                android:text="View"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:cornerRadius="10dp"></Button>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-384dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/roundnew"
+        android:elevation="10dp"
+        android:nestedScrollingEnabled="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginVertical="10dp"
+            android:layout_marginEnd="0dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/img_9"></ImageView>
+
+            <TextView
+                android:id="@+id/productName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="Decorations"
+                android:textColor="@color/black"
+                android:textSize="30sp"></TextView>
+
+            <Button
+                android:id="@+id/odbtn"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-125dp"
+                android:layout_marginTop="75dp"
+                android:backgroundTint="#FFAC1C"
+                android:text="View"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:cornerRadius="10dp"></Button>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-384dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/roundnew"
+        android:elevation="10dp"
+        android:nestedScrollingEnabled="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginVertical="10dp"
+            android:layout_marginEnd="0dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/img_10"></ImageView>
+
+            <TextView
+                android:id="@+id/productName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="Jewelry"
+                android:textColor="@color/black"
+                android:textSize="30sp"></TextView>
+
+            <Button
+                android:id="@+id/orjbtn"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-98dp"
+                android:layout_marginTop="75dp"
+                android:backgroundTint="#FFAC1C"
+                android:text="View"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:cornerRadius="10dp"></Button>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
